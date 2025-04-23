@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <title>Caffe Shopp</title>
+  <link rel="stylesheet" href="cafe.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar section-content">
+      <a class="nav-logo" href="">
+        <h2 class="logo-text">Coffe</h2>
+      </a>
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"><i class="bi bi-x-lg"></i></button>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testemonial">Testemonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <button id="menu-open-button" class="fas fa-bars"><i class="bi bi-list"></i></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section" >
+      <div class="section-content">
+        <div class="hero-details">
+          <h2 class="title">Best coffe</h2>
+          <h3 class="sub-title">Make your day great with our special coffee!</h3>
+          <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy</p>
+  
+          <div class="buttons">
+            <a href="#" class="button order-now">Order now</a>
+            <a href="#" class="button contact-us">Contact us</a>
+          </div>
+        </div>
+          <div class="hero-image-wrapper">
+            <img src="./images/coffee-hero-section.png" alt="hero" class="hero">
+          </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="section-content">
+        <div class="about-image-wrapper">
+          <img src="./images/about-image.jpg" alt="About" class="about-image">
+        </div>
+        <div class="about-details">
+          <h2 class="section-title">About Us</h2>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nulla hic iste magnam labore repudiandae odit sed aliquid amet magni pariatur, neque nesciunt necessitatibus facere ratione similique sapiente reprehenderit rerum? Id similique explicabo laborum animi!</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link" ><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-link" ><i class="bi bi-twitter"></i></a>
+            <a href="#" class="social-link" ><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="section-content">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <img src="./images/hot-beverages.png" alt="Hot Beverages" class="menu-image">
+            <h3 class="name">Hot Beverages</h3>
+            <p class="text">Wide range of steaming hot coffe to make you free and light</p>
+          </li>
+          <li class="menu-item">
+            <img src="./images/desserts.png" alt="Hot Beverages" class="menu-image">
+            <h3 class="name">Hot Beverages</h3>
+            <p class="text">Wide range of steaming hot coffe to make you free and light</p>
+          </li>
+          <li class="menu-item">
+            <img src="./images/cold-beverages.png" alt="Cold Beverages" class="menu-image">
+            <h3 class="name">Hot Beverages</h3>
+            <p class="text">Wide range of steaming hot coffe to make you free and light</p>
+          </li>
+          <li class="menu-item">
+            <img src="./images/burger-frenchfries.png" alt="Hot Beverages" class="menu-image">
+            <h3 class="name">Hot Beverages</h3>
+            <p class="text">Wide range of steaming hot coffe to make you free and light</p>
+          </li>
+          <li class="menu-item">
+            <img src="./images/special-combo.png" alt="Hot Beverages" class="menu-image">
+            <h3 class="name">Hot Beverages</h3>
+            <p class="text">Wide range of steaming hot coffe to make you free and light</p>
+          </li>
+          <li class="menu-item">
+            <img src="./images/refreshment.png" alt="Hot Beverages" class="menu-image">
+            <h3 class="name">Hot Beverages</h3>
+            <p class="text">Wide range of steaming hot coffe to make you free and light</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="testemonials-section" id="testemonial">
+      <h2 class="section-title">Testemonials</h2>
+      <div class="section-content">
+        <div class="slider-container swiper">
+          <div class="slider-wrapper">
+            <ul class="testemonials-list swiper-wrapper">
+              <li class="testemonial swiper-slide">
+                <img src="./images/user-1.jpg" alt="" class="user-image">
+                <h3 class="name">Sarah Dhoe</h3>
+                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again</i>
+              </li>
+
+              <li class="testemonial swiper-slide">
+                <img src="./images/user-3.jpg" alt="" class="user-image">
+                <h3 class="name">Alexandre O grande</h3>
+                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again</i>
+              </li>
+
+              <li class="testemonial swiper-slide">
+                <img src="./images/user-4.jpg" alt="" class="user-image">
+                <h3 class="name">Hatshepsut</h3>
+                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again</i>
+              </li>
+
+              <li class="testemonial swiper-slide">
+                <img src="./images/user-1.jpg" alt="" class="user-image">
+                <h3 class="name">Cleópatra VII</h3>
+                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again</i>
+              </li>
+
+              <li class="testemonial swiper-slide">
+                <img src="./images/user-5.jpg" alt="" class="user-image">
+                <h3 class="name">Tutancâmon</h3>
+                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again</i>
+              </li>
+
+              <li class="testemonial swiper-slide">
+                <img src="./images/user-2.jpg" alt="" class="user-image">
+                <h3 class="name">Xerxes I | Assuero</h3>
+                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again</i>
+              </li>
+            </ul>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev swiper-slide-button"></div>
+            <div class="swiper-button-next swiper-slide-button"></div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <h2 class="section-title"></h2>
+      <div class="section-content">
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <img src="./images/gallery-1.jpg" alt="" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="./images/gallery-2.jpg" alt="" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="./images/gallery-3.jpg" alt="" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="./images/gallery-4.jpg" alt="" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="./images/gallery-5.jpg" alt="" class="gallery-image">
+          </li>
+          <li class="gallery-item">
+            <img src="./images/gallery-6.jpg" alt="" class="gallery-image">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="section-content">
+        <ul class="contact-info-list">
+          <li class="contact-info">
+            <i class="bi bi-geo-alt"></i>
+            <p>Distrito de Matinha - Feira de Santana/BA</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="bi bi-telephone-fill"></i>
+            <p>21 - 9 6987-9173</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="bi bi-envelope"></i>
+            <p>welliveltonfonseca@gmail.com</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="bi bi-calendar-check"></i>
+            <p>Fiday  open all day</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="bi bi-globe"></i>
+            <p>Hello worl, be welcome</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="bi bi-alarm-fill"></i>
+            <p>sunday: open at 13 p.m</p>
+          </li>
+        </ul>
+
+        <form action="#" class="contact-form">
+          <input type="text" placeholder="Your Name" class="form-input" required>
+          <input type="email" placeholder="Your E-mail" class="form-input" required>
+          <textarea  placeholder="Your message" class="form-input" required></textarea>
+          <button class="submit-button">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="section-content">
+        <p class="copyright-text">&COPY; 2025 Coffee Shop</p>
+
+        <div class="social-link-list">
+          <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+        </div>
+
+        <p class="policy-text">
+          <a href="" class="policy-link">Privacy policy</a>
+          <span class="separator"><i class="bi bi-dot"></i></span>
+          <a href="#" class="policy-link">Refund policy</a>
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="caffee.js"></script>
+</body>
+</html>
